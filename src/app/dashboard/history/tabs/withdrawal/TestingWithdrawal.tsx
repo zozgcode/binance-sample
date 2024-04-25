@@ -1,20 +1,16 @@
-"use client";
-
+import { TestingWithdrawalTxData } from "@/components/accounts/transactionData/TrxData";
 import React from "react";
-import { TestingDepositTxData, TestingWithdrawTxData } from "../transactionData/TrxData";
 
-export default function Testing() {
-  const top7depositData = TestingDepositTxData.slice(0, 10); // Fetching only the first five transactions
-  const moreThanSevenDeposit = TestingDepositTxData.length > 10;
-  const top7withdrawalData = TestingWithdrawTxData.slice(0, 10); // Fetching only the first five transactions
-  const moreThanSevenWithdrawal = TestingWithdrawTxData.length > 10;
+export default function TestingWithdrawal() {
+  const top7Data = TestingWithdrawalTxData.slice(0, 10); // Fetching only the first five transactions
+  const moreThanSeven = TestingWithdrawalTxData.length > 10;
 
   return (
     <>
-      {top7depositData.length === 0 && (
+      {top7Data.length === 0 && (
         <div className="text-center">No transaction yet.</div>
       )}
-      {top7depositData.map((txt, i) => (
+      {top7Data.map((txt, i) => (
         <div key={i} className="flex justify-between mt-7">
           <div className="">
             <p className="text-[#EAECEF] text-[16px]">{txt.coinName}</p>
@@ -29,7 +25,7 @@ export default function Testing() {
           </div>
         </div>
       ))}
-      {/* {moreThanSevenDeposit && (
+      {/* {moreThanSeven && (
         <div className="text-center mt-8">
           <Link
             href="/accounts/transactions"

@@ -7,8 +7,8 @@ import { nono_sans_kr } from "./fonts";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Credit Card, Mortgage, Banking, Auto",
-  description: "Credit Card, Mortgage, Banking, Auto",
+  title: "Binance",
+  description: "Binance",
 };
 
 export default function RootLayout({
