@@ -10,42 +10,42 @@ import future from "../../../assets/aalogo/future.png"
 
 export const shortcut = [
   {
-    logo: web3,
+    logo: "https://i.imgur.com/Y547Fz2.png",
     title: "Web3 Wallet",
   },
   {
-    logo: deposit,
+    logo: "https://i.imgur.com/kVgYYjw.png",
     title: "Deposit",
   },
   {
-    logo: ref,
+    logo: "https://i.imgur.com/KLwlLsE.png",
     title: "Referral",
   },
 ];
 
 export const recommend = [
     {
-      logo: square,
+      logo: "https://i.imgur.com/udz6kGq.png",
       title: "Square",
     },
     {
-      logo: p2p,
+      logo: "https://i.imgur.com/6Yjvdgt.png",
       title: "P2P",
     },
     {
-      logo: copyTrade,
+      logo: "https://i.imgur.com/0OGhRfC.png",
       title: "Copy Trading",
     },
     {
-      logo: spot,
+      logo: "https://i.imgur.com/UOUUee2.png",
       title: "Spot",
     },
     {
-      logo: earn,
+      logo: "https://i.imgur.com/itXlL9c.png",
       title: "Earn",
     },
     {
-      logo: future,
+      logo: "https://i.imgur.com/smXbl6l.png",
       title: "Future",
     },
   ];

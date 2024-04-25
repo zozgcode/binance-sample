@@ -29,8 +29,8 @@ export default function ProfilePage() {
           </p>
         </div>
       </div>
-      <div className="border-t border-[#333b48] pt-3 mt-3">
-        <h3 className="text-white text-[16px] font-normal mb-3">Shortcut</h3>
+      <div className="border-t border-[#333b48] pt-3 mt-5">
+        <h3 className="text-white text-[16px] font-normal mb-5">Shortcut</h3>
         <div className="grid grid-cols-3 sm:grid-cols-4 gap-2 gap-y-5">
           {shortcut.map((item) => (
             <div
@@ -48,10 +48,10 @@ export default function ProfilePage() {
             </div>
           ))}
         </div>
-        <h3 className="text-white text-[16px] font-normal mb-3 mt-10">
+        <h3 className="text-white text-[16px] font-normal mb-5 mt-20">
           Recommend
         </h3>
-        <div className="grid grid-cols-3 sm:grid-cols-4 gap-2 gap-y-5">
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-2 gap-y-7">
           {recommend.map((item) => (
             <div
               key={item.title}
