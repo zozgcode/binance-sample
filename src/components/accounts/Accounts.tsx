@@ -1,11 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import TransactionHistory from "./transactionData/TransactionHistory";
-import Testing from "./allUsersTxtData/Testing";
-import TestingTwo from "./allUsersTxtData/Testing2";
 import TabComponent from "../tabs/TabComponent";
 
 export default function Dashboard() {
