@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="fixed flex items-center justify-center h-[60px] bottom-0 w-full bg-[#181A20] left-0 right-0">
+    <div className="fixed flex items-center justify-center h-[60px] bottom-0 w-full bg-[#1F2630] border-t border-[#333c49] shadow-2xl left-0 right-0">
       <div className="flex justify-evenly gap-3 w-full">
         {fMenuLink.map((link, i) => (
           <Link

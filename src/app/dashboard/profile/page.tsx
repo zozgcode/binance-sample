@@ -35,7 +35,7 @@ export default function ProfilePage() {
           {shortcut.map((item) => (
             <div
               key={item.title}
-              className="border flex flex-col items-center justify-center w-full p-1"
+              className="flex flex-col items-center justify-center max-w-max p-1"
             >
               <Image
                 src={item.logo}
@@ -55,8 +55,15 @@ export default function ProfilePage() {
           {recommend.map((item) => (
             <div
               key={item.title}
-              className="border flex flex-col items-center justify-center w-full"
+              className="flex flex-col items-center justify-center max-w-max p-1"
             >
+              <Image
+                src={item.logo}
+                width={100}
+                height={100}
+                className="w-[20px] h-[20px]"
+                alt={item.title}
+              />
               <p className="text-white text-[12px]">{item.title}</p>
             </div>
           ))}

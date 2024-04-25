@@ -1,12 +1,12 @@
-import web3 from "../../../assets/aalogo/web3.PNG"
-import deposit from "../../../assets/aalogo/deposit.PNG"
-import ref from "../../../assets/aalogo/ref.PNG"
-import p2p from "../../../assets/aalogo/p2p.PNG"
-import square from "../../../assets/aalogo/square.PNG"
-import earn from "../../../assets/aalogo/earn.PNG"
-import copyTrade from "../../../assets/aalogo/copyTrade.PNG"
-import spot from "../../../assets/aalogo/spot.PNG"
-import future from "../../../assets/aalogo/future.PNG"
+import web3 from "../../../assets/aalogo/web3.png"
+import deposit from "../../../assets/aalogo/deposit.png"
+import ref from "../../../assets/aalogo/ref.png"
+import p2p from "../../../assets/aalogo/p2p.png"
+import square from "../../../assets/aalogo/square.png"
+import earn from "../../../assets/aalogo/earn.png"
+import copyTrade from "../../../assets/aalogo/copyTrade.png"
+import spot from "../../../assets/aalogo/spot.png"
+import future from "../../../assets/aalogo/future.png"
 
 export const shortcut = [
   {
