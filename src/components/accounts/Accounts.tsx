@@ -28,11 +28,14 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="px-[24px]">
+    <div className="">
       <div className="flex justify-between items-center">
         <div className="text-white w-[70%]">
           <p className="text-[17px]">Total Balance (USD)</p>
           <p className="text-[24px]">$20,000.323888</p>
+        </div>
+        <div className="w-[100px] relative top-[-63px]">
+          <button className="h-[45px] w-full leading-[24px] rounded-[10px] px-[15px] text-[16px] bg-[#FCD535] text-[#202630] font-semibold">Deposit</button>
         </div>
       </div>
       <div className="mt-10 pt-5 border-t border-[#474D57]">

@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <>
       <Header />
-      <main className="pb-[200px]">{children}</main>
+      <main className="pb-[200px] px-[16px]">{children}</main>
       <Footer />
     </>
   );
