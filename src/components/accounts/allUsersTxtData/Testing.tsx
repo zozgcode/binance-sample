@@ -1,13 +1,13 @@
 "use client";
 
 import React from "react";
-import { TestingDepositTxData, TestingWithdrawTxData } from "../transactionData/TrxData";
+import { TestingDepositTxData, TestingWithdrawalTxData } from "../transactionData/TrxData";
 
 export default function Testing() {
   const top7depositData = TestingDepositTxData.slice(0, 10); // Fetching only the first five transactions
   const moreThanSevenDeposit = TestingDepositTxData.length > 10;
-  const top7withdrawalData = TestingWithdrawTxData.slice(0, 10); // Fetching only the first five transactions
-  const moreThanSevenWithdrawal = TestingWithdrawTxData.length > 10;
+  const top7withdrawalData = TestingWithdrawalTxData.slice(0, 10); // Fetching only the first five transactions
+  const moreThanSevenWithdrawal = TestingWithdrawalTxData.length > 10;
 
   return (
     <>
