@@ -5,7 +5,6 @@
       "name": "Gregory Hartmann",
       "usern": "gregoryhartman",
       "profileImg": "",
-      "cardName": "Gregory Hartmann",
       "username": "testing@gmail.com",
       "password": "testing",
       "totalBalance": "1,800,000.00",
@@ -15,11 +14,11 @@
     {
       "id": 2,
       "name": "Father Mother",
+      "usern": "fathermother",
       "profileImg": "",
-      "cardName": "Father Mother",
       "username": "testing2@gmail.com",
-      "password": "testing2",
-      "totalBalance": "750,658.43",
+      "password": "testing",
+      "totalBalance": "750,564.34",
       "uid": "...34350",
       "createdOn": "d/m/y"
     }

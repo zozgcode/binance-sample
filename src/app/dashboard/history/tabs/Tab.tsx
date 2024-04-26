@@ -1,6 +1,6 @@
 import Image from "next/image";
-import TestingWithdrawal from "./withdrawal/TestingWithdrawal";
 import Deposit from "./deposit/Deposit";
+import Withdrawal from "./withdrawal/Withdrawal";
 
 export const items = [
   {
@@ -15,7 +15,7 @@ export const items = [
     title: "Withdrawal",
     content: (
       <div className="w-full">
-        <TestingWithdrawal />
+        <Withdrawal />
       </div>
     ),
   },

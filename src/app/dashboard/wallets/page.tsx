@@ -64,7 +64,7 @@ export default function WalletPage() {
           <p>Balances</p>
           <FiSearch className="text-[#5b6474] text-[18px] font-semibold" />
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 mt-6">
           {balance.map((item) => (
             <div
               key={item.coinName1}

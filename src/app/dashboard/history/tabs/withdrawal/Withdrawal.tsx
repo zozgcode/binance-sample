@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import TestingDeposit from "./TestingDeposit";
-import FatherMotherDeposit from "./FatherMotherDeposit";
+import TestingWithdrawal from "./TestingWithdrawal";
+import FatherMotherWithdrawal from "./FatherMotherWithdrawal";
 
-export default function Deposit() {
+export default function Withdrawal() {
   const [user, setUser] = useState<any>(null);
 
   useEffect(() => {
@@ -18,8 +18,8 @@ export default function Deposit() {
     <div>
       {user && (
         <>
-          {user.id === 1 && <TestingDeposit />}
-          {user.id === 2 && <FatherMotherDeposit />}
+          {user.id === 1 && <TestingWithdrawal />}
+          {user.id === 2 && <FatherMotherWithdrawal />}
         </>
       )}
     </div>
